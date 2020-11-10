@@ -1,0 +1,78 @@
+
+.popup_heading {
+    background: lightgrey;
+    padding: 1.5rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.popup_wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border-color: transparent;
+}
+
+.popup_box {
+    outline: none;
+    border-color: transparent;
+    border-radius: 0.5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    box-shadow: 0px 0px 3px rgba(0, 10, 35, 0.35);
+    background-color: white;
+    min-height: 10rem;
+    max-height: 25rem;
+    top: 20%;
+    width: 30rem;
+    left: 50%;
+    margin-left: -15rem;
+}
+
+.popup_cart-empty-message {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    padding: 0.5rem;
+}
+
+.popup_product-name {
+    font-size: 1.1rem;
+    color: darkslateblue;
+    text-align: left;
+}
+
+.popup_product-details {
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 3px rgba(0, 10, 35, 0.35);
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.popup_product-footer {
+    display: flex;
+    border-radius: 0.5rem;
+    background-color: lightgrey;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.popup_grand-total {
+    font-size: 1rem;
+    color: darkslateblue;
+}
+
+/*for mobile view*/
+@media screen and (max-width: 425px) {
+    .popup_box {
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+    }
+}
