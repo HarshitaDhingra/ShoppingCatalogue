@@ -12,7 +12,7 @@ const STATIC_STRINGS = {
     HURRY: 'Left, Hurry!',
     ITEMS_IN_CART: 'ITEMS IN CART',
     GRAND_TOTAL: 'Grand Total: ',
-    HEADER_CONTENT: 'Your personalized product recommendations!',
+    HEADER_CONTENT: 'Now shop with your personalized recommendations!',
     FOOTER_CONTENT: 'You may now contact us at <a href="https://www.myntra.com/contactus">let\'s connect</a>',
     NO_PRODUCT_TO_RENDER: 'No product to show!',
     CART_EMPTY_MSG: 'Cart empty currently. Please click on \'Add to Cart\' button to add required products.',
